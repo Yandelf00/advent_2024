@@ -10,7 +10,7 @@ int main(){
     int tmp;
     int result = 0;
     std::vector<int> vec_one, vec_two;
-    std::ifstream inputFile("input.txt");
+    std::ifstream inputFile("inputthird.txt");
     if(!inputFile){
         std::cerr<<"Error : cannot open file ! "<<std::endl;
         return 1;
